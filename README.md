@@ -23,4 +23,6 @@ The game objects include walls and powerups.  Some walls are breakable while oth
 ![health](https://github.com/cchunter12/myTankGame/assets/89422782/8a963367-7012-42af-afb2-f4b4c9ea40d8)
 
 The game world is a giant rectangle of unbreakable walls.  This world is filled with game objects for the tanks to interact with.
+
+
 ![image](https://github.com/cchunter12/myTankGame/assets/89422782/4e55c883-f459-4402-82fc-c7c239f22bff)
