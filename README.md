@@ -13,3 +13,14 @@ During this part of the project, I came up with a class diagram for this game, f
 ![diagram](https://github.com/cchunter12/myTankGame/assets/89422782/82beb358-bfc7-4ac0-b6a5-0bfb674d48c3)
 
 # Implementation
+There are three main implementations in this game:  The tank, the game objects, and the game world itself.  How each object interacted with each other is what makes this game fun.
+
+The tank is a moveable object which shoots bullets that interact with other objects in the world.  For example, a tank might collide into a breakable wall and a solution is to shoot it down with bullets. It might run into a powerup to gain new powers.
+
+The game objects include walls and powerups.  Some walls are breakable while others are not.  Some powerups are speed up, stronger firepower, and health packs.
+![speed](https://github.com/cchunter12/myTankGame/assets/89422782/cb9c7707-5e0b-407c-9e10-68cd5eb0713e)
+![rocket](https://github.com/cchunter12/myTankGame/assets/89422782/ad00ddb9-49ae-4bc9-bdd4-52d467c20d97)
+![health](https://github.com/cchunter12/myTankGame/assets/89422782/8a963367-7012-42af-afb2-f4b4c9ea40d8)
+
+The game world is a giant rectangle of unbreakable walls.  This world is filled with game objects for the tanks to interact with.
+![image](https://github.com/cchunter12/myTankGame/assets/89422782/4e55c883-f459-4402-82fc-c7c239f22bff)
